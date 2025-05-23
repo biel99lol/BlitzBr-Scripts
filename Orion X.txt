@@ -13,21 +13,21 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			Main = Color3.fromHSV(tick() % 5 / 5, 1, 1),
+			Second = Color3.fromHSV((tick() + 0.1) % 5 / 5, 1, 1),
+			Stroke = Color3.fromHSV((tick() + 0.2) % 5 / 5, 1, 1),
+			Divider = Color3.fromHSV((tick() + 0.3) % 5 / 5, 1, 1),
+			Text = Color3.fromHSV((tick() + 0.4) % 5 / 5, 1, 1),
+			TextDark = Color3.fromHSV((tick() + 0.5) % 5 / 5, 1, 1)
 		},
 
 		Bliz_T = {
-			Main = Color3.fromRGB(0, 0, 0), -- Preto para o fundo
-			Second = Color3.fromRGB(20, 20, 20), -- Cinza bem escuro para contraste
-			Stroke = Color3.fromRGB(100, 150, 255), -- Azul bebê claro para detalhes
-			Divider = Color3.fromRGB(80, 120, 200), -- Azul bebê mais escuro para divisores
-			Text = Color3.fromRGB(180, 220, 255), -- Azul bebê claro para textos
-			TextDark = Color3.fromRGB(150, 180, 230) -- Azul bebê amarelado para texto secundário
+			Main = Color3.fromHSV(tick() % 5 / 5, 1, 1),
+			Second = Color3.fromHSV((tick() + 0.1) % 5 / 5, 1, 1),
+			Stroke = Color3.fromHSV((tick() + 0.2) % 5 / 5, 1, 1),
+			Divider = Color3.fromHSV((tick() + 0.3) % 5 / 5, 1, 1),
+			Text = Color3.fromHSV((tick() + 0.4) % 5 / 5, 1, 1),
+			TextDark = Color3.fromHSV((tick() + 0.5) % 5 / 5, 1, 1)
 		}
 	},
 	SelectedTheme = "Bliz_T",
