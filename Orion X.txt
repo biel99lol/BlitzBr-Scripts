@@ -12,22 +12,22 @@ local OrionLib = {
 	Connections = {},
 	Flags = {},
 	Themes = {
-		Default = {
-			Main = Color3.fromHSV(tick() % 5 / 5, 1, 1),
-			Second = Color3.fromHSV((tick() + 0.1) % 5 / 5, 1, 1),
-			Stroke = Color3.fromHSV((tick() + 0.2) % 5 / 5, 1, 1),
-			Divider = Color3.fromHSV((tick() + 0.3) % 5 / 5, 1, 1),
-			Text = Color3.fromHSV((tick() + 0.4) % 5 / 5, 1, 1),
-			TextDark = Color3.fromHSV((tick() + 0.5) % 5 / 5, 1, 1)
+		Modern = {
+			Main = Color3.fromRGB(15, 15, 20),
+			Second = Color3.fromRGB(25, 25, 35),
+			Stroke = Color3.fromRGB(50, 100, 200),
+			Divider = Color3.fromRGB(40, 80, 160),
+			Text = Color3.fromRGB(220, 230, 255),
+			TextDark = Color3.fromRGB(150, 160, 190)
 		},
 
 		Bliz_T = {
-			Main = Color3.fromHSV(tick() % 5 / 5, 1, 1),
-			Second = Color3.fromHSV((tick() + 0.1) % 5 / 5, 1, 1),
-			Stroke = Color3.fromHSV((tick() + 0.2) % 5 / 5, 1, 1),
-			Divider = Color3.fromHSV((tick() + 0.3) % 5 / 5, 1, 1),
-			Text = Color3.fromHSV((tick() + 0.4) % 5 / 5, 1, 1),
-			TextDark = Color3.fromHSV((tick() + 0.5) % 5 / 5, 1, 1)
+			Main = Color3.fromRGB(10, 10, 15),
+			Second = Color3.fromRGB(20, 20, 30),
+			Stroke = Color3.fromRGB(80, 140, 255),
+			Divider = Color3.fromRGB(60, 100, 200),
+			Text = Color3.fromRGB(200, 220, 255),
+			TextDark = Color3.fromRGB(140, 160, 200)
 		}
 	},
 	SelectedTheme = "Bliz_T",
